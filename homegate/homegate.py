@@ -138,7 +138,7 @@ class IdxRecord(object):
                 ['selling_price', '', {'type': 'int', 'length':(10, 0)}],
                 ['rent_net', '', {'type': 'int', 'length':(10, 0)}],
                 ['rent_extra', '', {'type': 'int', 'length':(10, 0)}],
-                ['price_unit', '', {'type': 'int', 'length':(10, 0)}],
+                ['price_unit', ''],
                 ['currency', ''],
                 ['gross_premium', ''],
                 ['floor', '', {'type': 'int', 'length':(6, 0)}],
